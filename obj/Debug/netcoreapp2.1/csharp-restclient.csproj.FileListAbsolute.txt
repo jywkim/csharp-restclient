@@ -1,0 +1,11 @@
+/home/jonathan/Desktop/jywkim/csharp-restclient/bin/Debug/netcoreapp2.1/csharp-restclient.deps.json
+/home/jonathan/Desktop/jywkim/csharp-restclient/bin/Debug/netcoreapp2.1/csharp-restclient.runtimeconfig.json
+/home/jonathan/Desktop/jywkim/csharp-restclient/bin/Debug/netcoreapp2.1/csharp-restclient.runtimeconfig.dev.json
+/home/jonathan/Desktop/jywkim/csharp-restclient/bin/Debug/netcoreapp2.1/csharp-restclient.dll
+/home/jonathan/Desktop/jywkim/csharp-restclient/bin/Debug/netcoreapp2.1/csharp-restclient.pdb
+/home/jonathan/Desktop/jywkim/csharp-restclient/obj/Debug/netcoreapp2.1/csharp-restclient.csprojAssemblyReference.cache
+/home/jonathan/Desktop/jywkim/csharp-restclient/obj/Debug/netcoreapp2.1/csharp-restclient.csproj.CoreCompileInputs.cache
+/home/jonathan/Desktop/jywkim/csharp-restclient/obj/Debug/netcoreapp2.1/csharp-restclient.AssemblyInfoInputs.cache
+/home/jonathan/Desktop/jywkim/csharp-restclient/obj/Debug/netcoreapp2.1/csharp-restclient.AssemblyInfo.cs
+/home/jonathan/Desktop/jywkim/csharp-restclient/obj/Debug/netcoreapp2.1/csharp-restclient.dll
+/home/jonathan/Desktop/jywkim/csharp-restclient/obj/Debug/netcoreapp2.1/csharp-restclient.pdb
