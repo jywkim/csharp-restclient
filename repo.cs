@@ -1,9 +1,12 @@
+using System.Runtime.Serialization;
 using System;
 
 namespace WebAPIClient
 {
-    public class repo
+    [DataContract(Name="repo")]
+    public class Repository
     {
-        public string name;
+        [DataMember(Name="name")]
+        public string Name;
     }
 }

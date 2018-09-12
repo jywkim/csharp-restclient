@@ -18,7 +18,7 @@ namespace WebAPIClient
 
         private static async Task ProcessRepositories()
         {
-            var serializer = new DataContractJsonSerializer(typeof(List<repo>));
+            var serializer = new DataContractJsonSerializer(typeof(List<Repository>));
 
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
@@ -26,12 +26,12 @@ namespace WebAPIClient
             client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
 
             var streamTask = client.GetStreamAsync("https://api.github.com/orgs/dotnet/repos");
-            var repositories = serializer.ReadObject(await streamTask) as List<repo>;
+            var repositories = serializer.ReadObject(await streamTask) as List<Repository>;
 
             var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
 
             foreach (var repo in repositories)
-                Console.WriteLine(repo.name);
+                Console.WriteLine(repo.Name);
         }
     }
 }

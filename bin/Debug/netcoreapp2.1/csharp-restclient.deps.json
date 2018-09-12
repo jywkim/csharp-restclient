@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.1": {
       "csharp-restclient/1.0.0": {
         "dependencies": {
-          "System.Runtime.Serialization.Json": "4.3.0"
+          "System.Runtime.Serialization.Json": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "runtime": {
           "csharp-restclient.dll": {}
